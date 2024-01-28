@@ -1,0 +1,49 @@
+.AddProductBox {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+    
+}
+
+.AddProductBox h1 {
+    margin-bottom: 20px;
+}
+
+.AddProductBox input {
+
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.158);
+    outline: none;
+    border-style: none;
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+
+}
+
+.AddProductBox button {
+    
+    border-radius: 100px;
+
+    height: 50px;
+
+    border-style: none;
+    background-color: #00277a;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+}
+
+.AddProductBox button:hover {
+    cursor: pointer;
+
+}
+
+.AddProductBox #addProductError {
+    color: red;
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+
+}
